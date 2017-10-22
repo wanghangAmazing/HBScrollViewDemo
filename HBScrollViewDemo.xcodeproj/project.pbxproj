@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D86E8CC1F9CC8500086FB9E /* FunctionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D86E8CB1F9CC8500086FB9E /* FunctionItem.m */; };
+		7D86E8CE1F9CC8660086FB9E /* FunctionItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D86E8CD1F9CC8660086FB9E /* FunctionItem.xib */; };
+		7DD629521F98E9C700458326 /* UIScrollView+HBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD629511F98E9C700458326 /* UIScrollView+HBLayout.m */; };
 		7DEE03D31F5D3BCA00B64738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE03D21F5D3BCA00B64738 /* main.m */; };
 		7DEE03D61F5D3BCA00B64738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE03D51F5D3BCA00B64738 /* AppDelegate.m */; };
 		7DEE03D91F5D3BCA00B64738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE03D81F5D3BCA00B64738 /* ViewController.m */; };
@@ -18,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D86E8CA1F9CC8500086FB9E /* FunctionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionItem.h; sourceTree = "<group>"; };
+		7D86E8CB1F9CC8500086FB9E /* FunctionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionItem.m; sourceTree = "<group>"; };
+		7D86E8CD1F9CC8660086FB9E /* FunctionItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FunctionItem.xib; sourceTree = "<group>"; };
+		7DD629501F98E9C700458326 /* UIScrollView+HBLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HBLayout.h"; sourceTree = "<group>"; };
+		7DD629511F98E9C700458326 /* UIScrollView+HBLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HBLayout.m"; sourceTree = "<group>"; };
 		7DEE03CE1F5D3BCA00B64738 /* HBScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEE03D21F5D3BCA00B64738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DEE03D41F5D3BCA00B64738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +82,9 @@
 				7DEE03DF1F5D3BCA00B64738 /* LaunchScreen.storyboard */,
 				7DEE03E21F5D3BCA00B64738 /* Info.plist */,
 				7DEE03D11F5D3BCA00B64738 /* Supporting Files */,
+				7D86E8CA1F9CC8500086FB9E /* FunctionItem.h */,
+				7D86E8CB1F9CC8500086FB9E /* FunctionItem.m */,
+				7D86E8CD1F9CC8660086FB9E /* FunctionItem.xib */,
 			);
 			path = HBScrollViewDemo;
 			sourceTree = "<group>";
@@ -93,6 +104,8 @@
 				7DEE03EA1F5D3C2200B64738 /* HBBannerView.m */,
 				7DEE03EB1F5D3C2200B64738 /* HBScrollView.h */,
 				7DEE03EC1F5D3C2200B64738 /* HBScrollView.m */,
+				7DD629501F98E9C700458326 /* UIScrollView+HBLayout.h */,
+				7DD629511F98E9C700458326 /* UIScrollView+HBLayout.m */,
 			);
 			path = HBViews;
 			sourceTree = "<group>";
@@ -158,6 +171,7 @@
 			files = (
 				7DEE03E11F5D3BCA00B64738 /* LaunchScreen.storyboard in Resources */,
 				7DEE03DE1F5D3BCA00B64738 /* Assets.xcassets in Resources */,
+				7D86E8CE1F9CC8660086FB9E /* FunctionItem.xib in Resources */,
 				7DEE03DC1F5D3BCA00B64738 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,10 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DEE03ED1F5D3C2200B64738 /* HBBannerView.m in Sources */,
+				7DD629521F98E9C700458326 /* UIScrollView+HBLayout.m in Sources */,
 				7DEE03D91F5D3BCA00B64738 /* ViewController.m in Sources */,
 				7DEE03D61F5D3BCA00B64738 /* AppDelegate.m in Sources */,
 				7DEE03D31F5D3BCA00B64738 /* main.m in Sources */,
 				7DEE03EE1F5D3C2200B64738 /* HBScrollView.m in Sources */,
+				7D86E8CC1F9CC8500086FB9E /* FunctionItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28KD37WDEK;
 				INFOPLIST_FILE = HBScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Original.HBScrollViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28KD37WDEK;
 				INFOPLIST_FILE = HBScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Original.HBScrollViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +350,7 @@
 				7DEE03E71F5D3BCA00B64738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
